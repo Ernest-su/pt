@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-    <title>Tim Chan's NAS</title>
+    <title>Ernest's Index</title>
     <link rel='Shortcut Icon' type='image/x-icon' href='./img/windows.ico'>
     <script type="text/javascript" src="./js/jquery-2.2.4.min.js"></script>
     <link href="./css/animate.css" rel="stylesheet">
@@ -13,8 +13,8 @@
     <link href="./css/default.css" rel="stylesheet">
     <script type="text/javascript" src="./js/win10.js"></script>
     <link href="./plugins/drawer/shortcut-drawer.min.css" rel="stylesheet">
-    <script type="text/javascript" src="./plugins/drawer/shortcut-drawer.min.js"></script>	
-	<style>
+    <script type="text/javascript" src="./plugins/drawer/shortcut-drawer.min.js"></script>
+    <style>
         * {
             font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
         }
@@ -24,6 +24,9 @@
             text-align: center;
             font-size: 16px;
         }
+
+
+
     </style>
     <script>
         Win10.onReady(function () {
@@ -38,14 +41,7 @@
                 'animated flip',
                 'animated bounceIn',
             ], 0.01);
-            
-            setTimeout(function () {
-                Win10.newMsg('Donate~', 'Scan the QR code to buy me a drink ^_^</br></br> <img src="./img/presentation/donation.png" style="width: 60%; top:800;" />')
-            }, 2500);
-
-            setTimeout(function () {
-                Win10.newMsg('Welcome~', '<a target="_blank" style="color:inherit" href="https://shang.qq.com/wpa/qunwpa?idkey=66f37313bf5f5927bde166d846a2ecccdc50b85f6e9ac5e6435ecf66ec2b6843">[Click me] Or Scan the QR code to join in QQGroup </br></br> <img src="./img/code.png" style="width: 50%; top:800;" /></a>')
-            }, 2500);
+           
 
 
         });
@@ -70,40 +66,196 @@
             });
 
         }
+
+
+
     </script>
 </head>
 <body>
 <div id="win10">
     <div class="desktop">
         <div id="win10-shortcuts" class="shortcuts-hidden">
-            <div class="shortcut" onclick="Win10.openUrl('./file','<img class=\'icon\' src=\'./img/icons/imageres_123.ico\'/>Administrator')">
-                <img class="icon" src="./img/icons/imageres_123.ico"/>
-                <div class="title">Administrator</div>
+
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.3.1','<img class=\'icon\' src=\'./img/custom/jindongyun.png\'/></i>京东云路由','max')">
+                <img class="icon" src="./img/custom/jindongyun.png"/>
+                <div class="title">京东云路由</div>
             </div>
-            <div class="shortcut" onclick="Win10.openUrl('https://www.9366333.cn:5001','<img class=\'icon\' src=\'./img/icons/imageres_109.ico\'/></i>This PC','max')">
-                <img class="icon" src="./img/icons/imageres_109.ico"/>
-                <div class="title">This PC</div>
+
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.123.1','<img class=\'icon\' src=\'./img/custom/k2.png\'/></i>k2路由','max')">
+                <img class="icon" src="./img/custom/k2.png"/>
+                <div class="title">k2路由</div>
             </div>
-            <div class="shortcut" onclick="Win10.openUrl('https://www.9366333.cn:2017','<img class=\'icon\' src=\'./img/icons/imageres_25.ico\'/>WrokGroup')">
-                <img class="icon" src="./img/icons/imageres_25.ico"/>
-                <div class="title">NetWork</div>
-            </div>	
+
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.7.1','<img class=\'icon\' src=\'./img/custom/tengda.png\'/></i>腾达路由器','max')">
+                <img class="icon" src="./img/custom/tengda.png"/>
+                <div class="title">腾达路由器</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.191.25:8080','<img class=\'icon\' src=\'./img/custom/xinjimohe.png\'/></i>Z-魔盒','max')">
+                <img class="icon" src="./img/custom/xinjimohe.png"/>
+                <div class="title">Z-魔盒</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.191.34:5000','<img class=\'icon\' src=\'./img/custom/qunhui.png\'/></i>Z-群晖','max')">
+                <img class="icon" src="./img/custom/qunhui.png"/>
+                <div class="title">Z-群晖</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.191.186:8080','<img class=\'icon\' src=\'./img/custom/wankeyun.png\'/></i>Z-玩客云','max')">
+                <img class="icon" src="./img/custom/wankeyun.png"/>
+                <div class="title">Z-玩客云</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.191.114:8080','<img class=\'icon\' src=\'./img/custom/macmini.png\'/></i>Z-MAC','max')">
+                <img class="icon" src="./img/custom/macmini.png"/>
+                <div class="title">Z-MAC</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.191.122:8080','<img class=\'icon\' src=\'./img/custom/pc.png\'/></i>Z-PC','max')">
+                <img class="icon" src="./img/custom/pc.png"/>
+                <div class="title">Z-PC</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.191.78:8080','<img class=\'icon\' src=\'./img/custom/pc.png\'/></i>Z-WIN365','max')">
+                <img class="icon" src="./img/custom/k2.png"/>
+                <div class="title">Z-WIN365</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://172.20.3.17:9999','<img class=\'icon\' src=\'./img/custom/pc.png\'/></i>内网服务器','max')">
+                <img class="icon" src="./img/custom/pc.png"/>
+                <div class="title">内网服务器</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.3.241:8080','<img class=\'icon\' src=\'./img/custom/macmini.png\'/></i>内网MAC','max')">
+                <img class="icon" src="./img/custom/macmini.png"/>
+                <div class="title">内网MAC</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.123.9:8080','<img class=\'icon\' src=\'./img/custom/pc.png\'/></i>内网PC','max')">
+                <img class="icon" src="./img/custom/pc.png"/>
+                <div class="title">内网PC</div>
+            </div>
+            <div class="shortcut"
+                 onclick="Win10.openUrl('http://192.168.123.135:8080','<img class=\'icon\' src=\'./img/custom/wankeyun.png\'/></i>内网玩客云','max')">
+                <img class="icon" src="./img/custom/wankeyun.png"/>
+                <div class="title">内网玩客云</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://www.hdfans.org/torrents.php','<img class=\'icon\' src=\'./img/custom/hdfans.png\'/></i>红豆饭','max')">
+                <img class="icon" src="./img/custom/hdfans.png"/>
+                <div class="title">红豆饭</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://haidan.video/torrents.php','<img class=\'icon\' src=\'./img/custom/haidan.png\'/></i>海胆','max')">
+                <img class="icon" src="./img/custom/haidan.png"/>
+                <div class="title">海胆</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('http://www.hd.ai/Torrents.index','<img class=\'icon\' src=\'./img/custom/hdai.png\'/></i>海带','max')">
+                <img class="icon" src="./img/custom/hdai.png"/>
+                <div class="title">海带</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://exoticaz.to/torrents','<img class=\'icon\' src=\'./img/custom/exo.png\'/></i>EXO','max')">
+                <img class="icon" src="./img/custom/exo.png"/>
+                <div class="title">EXO</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://pt.btschool.club/torrents.php','<img class=\'icon\' src=\'./img/custom/btschool.png\'/></i>学校','max')">
+                <img class="icon" src="./img/custom/btschool.png"/>
+                <div class="title">学校</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://pt.soulvoice.club/attendance.php','<img class=\'icon\' src=\'./img/custom/soulvoice.png\'/></i>聆音','max')">
+                <img class="icon" src="./img/custom/soulvoice.png"/>
+                <div class="title">聆音</div>
+            </div>
+
+            <div class="shortcut" onclick="window.open('https://www.hddolby.com/attendance.php','<img class=\'icon\' src=\'./img/custom/hddolby.png\'/></i>杜比','max')">
+                <img class="icon" src="./img/custom/hddolby.png"/>
+                <div class="title">杜比</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://hdatmos.club/attendance.php','<img class=\'icon\' src=\'./img/custom/hdatmos.png\'/></i>阿童木','max')">
+                <img class="icon" src="./img/custom/hdatmos.png"/>
+                <div class="title">阿童木</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://kp.m-team.cc/movie.php','<img class=\'icon\' src=\'./img/custom/m-team.png\'/></i>馒头','max')">
+                <img class="icon" src="./img/custom/m-team.png"/>
+                <div class="title">馒头</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://jpopsuki.eu/index.php','<img class=\'icon\' src=\'./img/custom/jpop.png\'/></i>鸡婆婆','max')">
+                <img class="icon" src="./img/custom/jpop.png"/>
+                <div class="title">鸡婆婆</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://lemonhd.org/attendance.php','<img class=\'icon\' src=\'./img/custom/ninmeng.png\'/></i>柠檬','max')">
+                <img class="icon" src="./img/custom/ninmeng.png"/>
+                <div class="title">柠檬</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://ptsbao.club/torrents.php','<img class=\'icon\' src=\'./img/custom/saobao.png\'/></i>骚包','max')">
+                <img class="icon" src="./img/custom/saobao.png"/>
+                <div class="title">骚包</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://www.nicept.net/torrents.php','<img class=\'icon\' src=\'./img/custom/hdatmos.png\'/></i>老师','max')">
+                <img class="icon" src="./img/custom/hdatmos.png"/>
+                <div class="title">老师</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('http://avgv.cc/torrents.php','<img class=\'icon\' src=\'./img/custom/hdatmos.png\'/></i>艾薇','max')">
+                <img class="icon" src="./img/custom/hdatmos.png"/>
+                <div class="title">艾薇</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://www.pttime.org/attendance.php','<img class=\'icon\' src=\'./img/custom/ptt.png\'/></i>时间','max')">
+                <img class="icon" src="./img/custom/ptt.png"/>
+                <div class="title">时间</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://pt.msg.vg/index.php','<img class=\'icon\' src=\'./img/custom/hdatmos.png\'/></i>马杀鸡','max')">
+                <img class="icon" src="./img/custom/hdatmos.png"/>
+                <div class="title">马杀鸡</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('https://www.htpt.cc/attendance.php','<img class=\'icon\' src=\'./img/custom/haitang.png\'/></i>海棠','max')">
+                <img class="icon" src="./img/custom/haitang.png"/>
+                <div class="title">海棠</div>
+            </div>
+            <div class="shortcut"
+                 onclick="window.open('https://club.hares.top/attendance.php','<img class=\'icon\' src=\'./img/custom/baitu.png\'/></i>白兔','max')">
+                <img class="icon" src="./img/custom/baitu.png"/>
+                <div class="title">白兔</div>
+            </div>
+
+            <div class="shortcut"
+                 onclick="window.open('http://hdmayi.com/torrents.php','<img class=\'icon\' src=\'./img/custom/mayi.png\'/></i>蚂蚁','max')">
+                <img class="icon" src="./img/custom/mayi.png"/>
+                <div class="title">蚂蚁</div>
+            </div>
+
             <div class="shortcut">
                 <img class="icon" src="./img/icons/imageres_54.ico"/>
                 <div class="title">Recycle Bin</div>
-            </div>	
-            <div class="shortcut" onclick="Win10.openUrl('https://www.9366333.cn:32323/','<img class=\'icon\' src=\'./img/icons/imageres_189.ico\'/>Emby Player')">
-                <img class="icon" src="./img/icons/imageres_189.ico"/>
-                <div class="title">My Video</div>
-            </div>	
-            <div class="shortcut" onclick="Win10.openUrl('./photo','<img class=\'icon\' src=\'./img/icons/imageres_113.ico\'/>Photo Station')">
-                <img class="icon" src="./img/icons/imageres_113.ico"/>
-                <div class="title">My Picture</div>
             </div>
-            <div class="shortcut" onclick="Win10.openUrl('./Music','<img class=\'icon\' src=\'./img/icons/imageres_108.ico\'/>Online Music Player')">
-                <img class="icon" src="./img/icons/imageres_108.ico"/>
-                <div class="title">My Music</div>
-            </div>
+
             <div class="shortcut win10-drawer">
                 <img class="icon" src="./img/icons/imageres_184.ico"/>
                 <div class="title">Downloader</div>
@@ -116,48 +268,26 @@
                         <img class="icon" src="./img/icons/imageres_5381.ico"/>
                         <div class="title">Aria2 Downloader</div>
                     </div>
-                 </div>
-            </div>	            
-            <div class="shortcut" onclick="window.open('https://www.9366333.cn:2018/','<img class=\'icon\' src=\'./img/icons/K3.png\'/>Phicomm K3')">
-                <img class="icon" src="./img/icons/K3.png"/>
-                <div class="title">Phicomm K3</div>
-            </div>   	            
-            <div class="shortcut" onclick="Win10.openUrl('./cloud','<img class=\'icon\' src=\'./img/icons/yunpan.ico\'/>My Cloud')">
-                <img class="icon" src="./img/icons/yunpan.ico"/>
-                <div class="title">Cloud</div>
-            </div>   
-            <div class="shortcut" onclick="window.open('http://yuancheng.xunlei.com','<img class=\'icon\' src=\'./img/icons/xunlei7.ico\'/>Thunder Remote')">
-                <img class="icon" src="./img/icons/xunlei7.ico"/>
-                <div class="title">Thunder</div>
-            </div>	 		            
-            <div class="shortcut" onclick="Win10.openUrl('./wordpress','<img class=\'icon\' src=\'./img/icons/wordpress-logo.png\'/></i>My Blog','max')">
-                <img class="icon" src="./img/icons/wordpress-logo.png"/>
-                <div class="title">My Blog</div>
-            </div>        
+                </div>
+            </div>
             <div class="shortcut win10-drawer">
                 <img class="icon" src="./img/icons/imageres_14.ico"/>
                 <div class="title">Games</div>
                 <div class="win10-drawer-box">
-                    <div class="shortcut-drawer win10-open-window" data-url="./plugins/games/SmbcPreloader.swf" data-area-offset="[['513px', '523px']]">
-                        <img class="icon" src="./plugins/games/FullScreenMario/Theme/Mario.gif"/>
-                        <div class="title">Super Mario</div>
-                    </div>
-                    <div class="shortcut-drawer win10-open-window" data-url="./plugins/games/tales.swf" data-area-offset="[['790px', '630px']]">
-                        <img class="icon" src="./plugins/games/FullScreenMario/Theme/tales.jpg"/>
-                        <div class="title">Xenozoic</div>
-                    </div>
-                    <div class="shortcut-drawer win10-open-window" data-url="./plugins/games/flappy" data-area-offset="[['330px', '600px']]">
+                    <div class="shortcut-drawer win10-open-window" data-url="./plugins/games/flappy"
+                         data-area-offset="[['330px', '600px']]">
                         <img class="icon" src="./plugins/games/flappy/icon.png"/>
                         <div class="title">Flappy Bird</div>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
         <div id="win10-desktop-scene"></div>
     </div>
     <div id="win10-menu" class="hidden">
         <div class="list win10-menu-hidden animated animated-slideOutLeft">
-            <div class="item" onclick="Win10.aboutUs()"><i class="purple icon fa fa-info-circle fa-fw"></i>About Me</div>
+            <div class="item" onclick="Win10.aboutUs()"><i class="purple icon fa fa-info-circle fa-fw"></i>About Me
+            </div>
             <div class="item" onclick="layer.open({
                 title:'Support Me',
                 type: 1,
@@ -165,7 +295,8 @@
                 offset:'50px',
                 shadeClose:true,
                 content: '<img width=\'300\' src=\'./img/presentation/donation.png\' />'
-            })"><i class="green icon fa fa-thumbs-up fa-fw"></i>Donation</div>
+            })"><i class="green icon fa fa-thumbs-up fa-fw"></i>Donation
+            </div>
             <div class="item" onclick=" Win10.exit();"><i class="black icon fa fa-power-off fa-fw"></i>Shut Down</div>
         </div>
         <div class="blocks">
@@ -173,59 +304,58 @@
                 <div class="title">
                     Application
                 </div>
-                <div loc="1,1" size="4,4" class="block">
-                    <div class="content blue cover" style="font-size: 40px;line-height: 36px;text-align: center">
-                        </br><i class="fa fa-cloud fa-fw"></i> </br>Weather
-                    </div>
-                    <div class="content detail" style="background-color: rgb(46,147,217)">
-                        <iframe src="//www.seniverse.com/weather/weather.aspx?uid=U43DF172E7&cid=CHBJ000000&l=&p=SMART&a=1&u=C&s=13&m=2&x=1&d=1&fc=&bgc=2E93D9&bc=&ti=0&in=0&li=" frameborder="0" scrolling="no" width="200" height="300" allowTransparency="true"></iframe>
-                    </div>
-                </div>
                 <div loc="5,1" size="2,2" class="block" onclick="win10_forgive_me()">
                     <div class="content red">
-                        <div style="text-align: center;font-size: 30px;line-height: 44px"><i class="fa fa-bug fa-fw"></i></div>
+                        <div style="text-align: center;font-size: 30px;line-height: 44px"><i
+                                class="fa fa-bug fa-fw"></i></div>
                         <div style="text-align: center;font-size: 16px;line-height: 44px">Click Me</div>
                     </div>
                 </div>
                 <div loc="5,3" size="2,2" class="block">
                     <div class="content">
-                        <img style="width: 40px;height: 40px;margin: 5px auto;display: block" src="./img/icons/imageres_5100.ico">
+                        <img style="width: 40px;height: 40px;margin: 5px auto;display: block"
+                             src="./img/icons/imageres_5100.ico">
                         <div class="win10-block-content-text">Button</div>
                     </div>
                 </div>
                 <div loc="1,5" size="6,3" class="block">
-                    <div class="content" style="background: url('./img/presentation/1.png');background-size: auto" onclick="window.open('https://www.9366333.cn:5001')">
+                    <div class="content" style="background: url('./img/presentation/1.png');background-size: auto"
+                         onclick="window.open('https://www.9366333.cn:5001')">
                     </div>
                 </div>
                 <div loc="1,8" size="2,1" class="block">
-                    <div class="content" style="background-color: red" onclick="window.open('http://www.gebi1.com/thread-274093-1-1.html')">
+                    <div class="content" style="background-color: red"
+                         onclick="window.open('http://www.gebi1.com/thread-274093-1-1.html')">
                         <div class="win10-block-content-text">Gebi1</div>
                     </div>
                 </div>
                 <div loc="3,8" size="2,1" class="block">
-                    <div class="content" style="background-color: orange" onclick="window.open('http://www.nasyun.com/forum.php?mod=viewthread&tid=30666&page=1&extra=#pid198851')">
+                    <div class="content" style="background-color: orange"
+                         onclick="window.open('http://www.nasyun.com/forum.php?mod=viewthread&tid=30666&page=1&extra=#pid198851')">
                         <div class="win10-block-content-text">NASyun</div>
                     </div>
-                </div>  
+                </div>
                 <div loc="5,8" size="2,1" class="block">
-                    <div class="content" style="background-color: purple" onclick="window.open('http://www.right.com.cn/forum/forum.php')">
+                    <div class="content" style="background-color: purple"
+                         onclick="window.open('http://www.right.com.cn/forum/forum.php')">
                         <div class="win10-block-content-text">Right.com</div>
                     </div>
-                </div>                  
+                </div>
             </div>
 
             <div class="menu_group">
                 <div class="title">
                     Drop My Needle.
-                </div>    
-                <div loc="1,1" size="6,8" class="block">
-                    <div class="content red detail" >
-                        <iframe style="margin-top: 1px" frameborder="no" border="0" marginwidth="0" marginheight="0" width=264 height=350 src="./Music"></iframe>
-                    </div>
-                    <div class="content red cover">
-                        <img width="264" style="position: relative;top: 0px;" src="./img/presentation/player.jpg" />
-                    </div>
                 </div>
+                <!--                <div loc="1,1" size="6,8" class="block">
+                                    <div class="content red detail">
+                                        <iframe style="margin-top: 1px" frameborder="no" border="0" marginwidth="0" marginheight="0"
+                                                width=264 height=350 src="./Music"></iframe>
+                                    </div>
+                                    <div class="content red cover">
+                                        <img width="264" style="position: relative;top: 0px;" src="./img/presentation/player.jpg"/>
+                                    </div>
+                                </div>-->
             </div>
         </div>
         <div id="win10-menu-switcher"></div>

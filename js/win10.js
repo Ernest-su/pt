@@ -483,15 +483,15 @@ window.Win10 = {
                     layer.alert(Win10.lang('Your browser does not support, please press Ctrl+D to manual collection!','Your browser does not support, please press Ctrl+D to manual collection!'));
                 }
             }],
-            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('Full Screen','Enable Full Screen'),function () {Win10.enableFullScreen()}],
-            ['<i class="fa fa-fw fa-window-restore"></i> '+Win10.lang('Normal Screen','Disable Full Screen'),function () {Win10.disableFullScreen()}],
+            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('Full Screen','进入全屏'),function () {Win10.enableFullScreen()}],
+            ['<i class="fa fa-fw fa-window-restore"></i> '+Win10.lang('Normal Screen','退出全屏'),function () {Win10.disableFullScreen()}],
             '|',
-            ['<i class="fa fa-fw fa-info-circle"></i> '+Win10.lang('About Me','About Me'),function () {Win10.aboutUs()}],
+            ['<i class="fa fa-fw fa-info-circle"></i> '+Win10.lang('About Me','关于'),function () {Win10.aboutUs()}],
         ]);
         Win10.setContextMenu('#win10_btn_group_middle',[
-            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('Show All','Show All Windows'),function () {Win10.showWins()}],
-            ['<i class="fa fa-fw fa-window-minimize"></i> '+Win10.lang('Hide All','Hide All Windows'),function () {Win10.hideWins()}],
-            ['<i class="fa fa-fw fa-window-close"></i> '+Win10.lang('Close All','Close All Windows'),function () {Win10.closeAll()}],
+            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('Show All','显示所有窗口'),function () {Win10.showWins()}],
+            ['<i class="fa fa-fw fa-window-minimize"></i> '+Win10.lang('Hide All','隐藏所有窗口'),function () {Win10.hideWins()}],
+            ['<i class="fa fa-fw fa-window-close"></i> '+Win10.lang('Close All','关闭所有窗口'),function () {Win10.closeAll()}],
         ]);
 
         //处理消息图标闪烁
@@ -636,7 +636,7 @@ window.Win10 = {
                 handle_click(e);
             }
         });
-        layer.tips(Win10.lang('New message: ','New message:')+title, '#win10_btn_command', {
+        layer.tips(Win10.lang('New message: ','新消息:')+title, '#win10_btn_command', {
             tips: [1, '#3c6a4a'],
             time: 3000
         });
@@ -858,7 +858,7 @@ window.Win10 = {
             closeBtn: 1, //不显示关闭按钮
             anim: 2,
             skin: 'layui-layer-molv',
-            title: 'Tim Chan′s NAS ',
+            title: 'Ernest′s Index ',
             shadeClose: true, //开启遮罩关闭
             area: ['320px', '200px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a7a0a78-16fd-4283-a23e-0375c4f60b7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/beta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/win10.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/win10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/generator_config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/pressstart2p-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/pressstart2p-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/pressstart2p-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/pressstart2p-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/specimen_files/easytabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/specimen_files/pressstart2p-cleartype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/specimen_files/specimen_stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/specimen_files/super_plumber_brothers-cleartype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/super_plumber_brothers-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/super_plumber_brothers-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/super_plumber_brothers-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/super_plumber_brothers-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Fonts/super_plumber_brothers-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World23.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World31.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World33.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World34.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World44.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World51.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World54.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World71.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World82.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World83.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Maps/World84.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Castle Complete.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Castle.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry Castle.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry Overworld.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry Sky.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry Star.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry Underwater.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry Underworld.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Hurry.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Overworld.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Sky.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Star.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Underwater.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/mp3/Underworld.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Castle Complete.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Castle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry Castle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry Overworld.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry Sky.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry Star.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry Underwater.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry Underworld.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Hurry.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Overworld.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Sky.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Star.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Underwater.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/Themes/ogg/Underworld.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Bowser Falls.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Bowser Fires.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Break Block.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Bump.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Coin.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Ending.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Fireball.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Firework.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Flagpole.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Gain Life.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Game Over 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Game Over.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Hurry.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Into the Tunnel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Jump Small.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Jump Super.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Kick.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Level Complete.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Mario Dies.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Pause.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Pipe.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Power Down.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Powerup Appears.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Powerup.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Stage Clear.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/Vine Emerging.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/World Clear.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/mp3/You Dead.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Bowser Falls.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Bowser Falls.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Bowser Fires.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Bowser Fires.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Break Block.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Break Block.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Bump.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Bump.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Coin.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Coin.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Ending.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Ending.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Fireball.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Fireball.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Firework.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Firework.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Flagpole.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Flagpole.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Gain Life.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Gain Life.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Game Over 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Game Over 2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Game Over.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Game Over.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Hurry.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Hurry.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Into the Tunnel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Into the Tunnel.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Jump Small.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Jump Small.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Jump Super.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Jump Super.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Kick.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Kick.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Level Complete.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Level Complete.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Mario Dies.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Mario Dies.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Pause.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Pause.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Pipe.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Pipe.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Power Down.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Power Down.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Powerup Appears.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Powerup Appears.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Powerup.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Powerup.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Stage Clear.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Stage Clear.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Vine Emerging.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/Vine Emerging.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/World Clear.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/World Clear.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/You Dead.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Sounds/ogg/You Dead.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/Cancel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/EraserTip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/Greeting.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/Hand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/Mario.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/erase.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/reset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/save.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/tales.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/Theme/undo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/gamepad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/library.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/maps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/mario.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/mario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/mario.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/parser/parser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/parser/parser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/parser/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/quadrants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/sounds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/sprites.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/things.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/toned.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/triggers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/upkeep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/FullScreenMario/utility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/SmbcPreloader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/games/tales.swf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wn0ANACK1tMN62ShsipPVFWTix" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a7a0a78-16fd-4283-a23e-0375c4f60b7f" name="Default Changelist" comment="" />
+      <created>1629078905489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629078905489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
