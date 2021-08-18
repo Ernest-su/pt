@@ -413,14 +413,14 @@ window.Win10 = {
             $("#win10_btn_time").html(hours+':'+mins+'<br/>'+year+'/'+month+'/'+date);
         },1000);
         //离开前警告
-        document.body.onbeforeunload = function(event){
-            var rel = Win10.lang( 'The system may not save the changes you have made.','The system may not save the changes you have made.');
-            if(!window.event){
-                event.returnValue=rel;
-            }else{
-                window.event.returnValue=rel;
-            }
-        };
+        // document.body.onbeforeunload = function(event){
+        //     var rel = Win10.lang( 'The system may not save the changes you have made.','The system may not save the changes you have made.');
+        //     if(!window.event){
+        //         event.returnValue=rel;
+        //     }else{
+        //         window.event.returnValue=rel;
+        //     }
+        // };
         Win10.buildList();//预处理左侧菜单
         Win10._startAnimate();//动画处理
         Win10.renderShortcuts();//渲染图标
@@ -443,9 +443,9 @@ window.Win10 = {
             }
         });
         //打广告
-        setTimeout(function () {
-            console.log(Win10.lang('☺ Modified By Tim Chan https://www.9366333.top\nWin10-UI All Right Reserved：http://win10ui.yuri2.cn ','Modified By Tim Chan https://www.9366333.top\nWin10-UI All Right Reserved：http://win10ui.yuri2.cn '))
-        },2000);
+        // setTimeout(function () {
+        //     console.log(Win10.lang('☺ Modified By Tim Chan https://www.9366333.top\nWin10-UI All Right Reserved：http://win10ui.yuri2.cn ','Modified By Tim Chan https://www.9366333.top\nWin10-UI All Right Reserved：http://win10ui.yuri2.cn '))
+        // },2000);
         //点击清空右键菜单
         $(document).click(function (event) {
             if(!event.button)
@@ -483,15 +483,15 @@ window.Win10 = {
                     layer.alert(Win10.lang('Your browser does not support, please press Ctrl+D to manual collection!','Your browser does not support, please press Ctrl+D to manual collection!'));
                 }
             }],
-            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('Full Screen','进入全屏'),function () {Win10.enableFullScreen()}],
-            ['<i class="fa fa-fw fa-window-restore"></i> '+Win10.lang('Normal Screen','退出全屏'),function () {Win10.disableFullScreen()}],
+            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('进入全屏','Full Screen'),function () {Win10.enableFullScreen()}],
+            ['<i class="fa fa-fw fa-window-restore"></i> '+Win10.lang('退出全屏','Normal Screen'),function () {Win10.disableFullScreen()}],
             '|',
-            ['<i class="fa fa-fw fa-info-circle"></i> '+Win10.lang('About Me','关于'),function () {Win10.aboutUs()}],
+            ['<i class="fa fa-fw fa-info-circle"></i> '+Win10.lang('关于','About Me'),function () {Win10.aboutUs()}],
         ]);
         Win10.setContextMenu('#win10_btn_group_middle',[
-            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('Show All','显示所有窗口'),function () {Win10.showWins()}],
-            ['<i class="fa fa-fw fa-window-minimize"></i> '+Win10.lang('Hide All','隐藏所有窗口'),function () {Win10.hideWins()}],
-            ['<i class="fa fa-fw fa-window-close"></i> '+Win10.lang('Close All','关闭所有窗口'),function () {Win10.closeAll()}],
+            ['<i class="fa fa-fw fa-window-maximize"></i> '+Win10.lang('显示所有窗口','Show All'),function () {Win10.showWins()}],
+            ['<i class="fa fa-fw fa-window-minimize"></i> '+Win10.lang('隐藏所有窗口','Hide All'),function () {Win10.hideWins()}],
+            ['<i class="fa fa-fw fa-window-close"></i> '+Win10.lang('关闭所有窗口','Close All'),function () {Win10.closeAll()}],
         ]);
 
         //处理消息图标闪烁
@@ -835,18 +835,24 @@ window.Win10 = {
         this._animated_classes=animated_classes;
         this._animated_liveness=animated_liveness;
     },
+    // exit:function () {
+    //     layer.confirm(Win10.lang('Are you sure you want to close this page?','Are you sure you want to close this page?'), {icon: 3, title:Win10.lang('Prompt','Prompt')}, function(index){
+    //         document.body.onbeforeunload = function(){};
+    //         window.location.href="about:blank";
+    //         window.close();
+    //         layer.close(index);
+    //         layer.alert(Win10.lang('Ops...There seems to be a little problem.','Ops...There seems to be a little problem.'), {
+    //             skin: 'layui-layer-lan'
+    //             ,closeBtn: 0
+    //         });
+    //     });
+    //
+    // },
     exit:function () {
-        layer.confirm(Win10.lang('Are you sure you want to close this page?','Are you sure you want to close this page?'), {icon: 3, title:Win10.lang('Prompt','Prompt')}, function(index){
             document.body.onbeforeunload = function(){};
             window.location.href="about:blank";
             window.close();
             layer.close(index);
-            layer.alert(Win10.lang('Ops...There seems to be a little problem.','Ops...There seems to be a little problem.'), {
-                skin: 'layui-layer-lan'
-                ,closeBtn: 0
-            });
-        });
-
     },
     lang:function (cn,en) {
         return this._lang==='zh-cn'||this._lang==='zh-tw'?cn:en;
@@ -862,10 +868,7 @@ window.Win10 = {
             shadeClose: true, //开启遮罩关闭
             area: ['320px', '200px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +
-            '<p>Router、NAS、Windows; All Together</p>' +
-            '<p>Tim Chan © All Rights Reserved</p>' +
-            '<p>QQ:9366333</p>' +
-            '</div>'
+            '<p>Router、NAS、Windows; All Together</p>'
         });
     },
     setContextMenu:function (jq_dom, menu) {
