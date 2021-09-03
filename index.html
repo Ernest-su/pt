@@ -71,28 +71,30 @@
         function add_shortcuts() {
             const tmp = [
                 ["http://192.168.7.1", "tengda.png", "腾达路由器",],
-                ["http://192.168.191.186:8080", "wankeyun.png", "Z-玩客云",],
+                ["http://192.168.3.241:8080", "macmini.png", "内网MAC",],
+                ["http://192.168.123.9:8080", "pc.png", "内网PC",],
+                ["http://192.168.123.135:8080", "wankeyun.png", "内网玩客云",],
+                ["http://192.168.191.25:8080", "xinjimohe.png", "Z-魔盒",],
             ]
             const shortcuts = [
+                //路由器
                 ["http://192.168.3.1", "jindongyun.png", "京东云路由",],
                 ["http://192.168.123.1", "k2.png", "k2路由",],
-
-                ["http://192.168.191.34:5000", "qunhui.png", "Z-群晖",],
-                ["http://192.168.191.25:8080", "xinjimohe.png", "Z-魔盒",],
+                //Z网设备
+                ["http://192.168.191.34:8080", "qunhui.png", "Z-群晖",],
+                ["http://192.168.191.186:8080", "wankeyun.png", "Z-玩客云",],
                 ["http://192.168.191.114:8080", "macmini.png", "Z-MAC",],
                 ["http://192.168.191.122:8080", "pc.png", "Z-PC",],
                 ["http://192.168.191.78:8080", "pc.png", "Z-WIN365",],
                 ["http://192.168.191.115:8080", "pc.png", "Z-J1900服务器",],
 
-                ["http://192.168.3.241:8080", "macmini.png", "内网MAC",],
-                ["http://192.168.123.9:8080", "pc.png", "内网PC",],
-                ["http://192.168.123.135:8080", "wankeyun.png", "内网玩客云",],
-                
+                //九大
                 ["https://kp.m-team.cc/movie.php", "m-team.png", "馒头",],
                 ["https://pterclub.com/attendance.php", "pter.png", "猫站"],
                 ["https://lemonhd.org/attendance.php", "ninmeng.png", "柠檬",],
-                ["https://pthome.net/attendance.php", "pthome.png", "铂金家",],
                 ["https://hdsky.me/","hdsky.png","天空"],
+                ["https://pthome.net/attendance.php", "pthome.png", "铂金家",],
+
                 ["https://ccfbits.org/browse.php","ccf.png","吹吹风"],
                 ["https://pt.btschool.club/index.php?action=addbonus", "btschool.png", "学校",],
                 ["https://pt.soulvoice.club/attendance.php", "soulvoice.png", "聆音",],
@@ -107,11 +109,10 @@
                 ["http://www.hd.ai/Torrents.index", "hdai.png", "海带",],
                 ["http://www.oshen.win/","oshen.png","奥申"],
                 ["https://52pt.site/","52pt.png","52PT"],
-                ["https://exoticaz.to/torrents", "exo.png", "EXO",],
-				["https://avistaz.to/torrents", "exo.png", "AVZ",],
+
+
                 ["https://www.hddolby.com/attendance.php", "hddolby.png", "杜比",],
                 ["https://hdatmos.club/attendance.php", "hdatmos.png", "阿童木",],
-                ["https://jpopsuki.eu/index.php", "jpop.png", "鸡婆婆",],
                 ["https://ptsbao.club/torrents.php", "saobao.png", "骚包",],
                 ["http://avgv.cc/torrents.php", "hdatmos.png", "艾薇",],
                 ["https://www.pttime.org/attendance.php", "ptt.png", "时间",],
@@ -123,10 +124,13 @@
                 ["https://www.hitpt.com/index.php", "baichuan.png", "百川",],
 				["https://pt.hdpost.top/", "hdpost.png", "HDPost",],
                 ["https://www.hitpt.com/torrents.php", "saobao.png", "骚包",],
-                ["https://sportscult.org/index.php", "sports.png", "运动",],
+
+                ["https://exoticaz.to/torrents", "exo.png", "EXO",],
+				["https://avistaz.to/torrents", "exo.png", "AVZ",],
+                ["https://jpopsuki.eu/index.php", "jpop.png", "鸡婆婆",],
                 ["https://www.cathode-ray.tube/torrents.php", "crt.png", "CRT",],
                 ["https://abtorrents.me/browse.php", "abt.png", "ABT",],
-                
+                ["https://sportscult.org/index.php", "sports.png", "运动",],
                 
 
             ];
@@ -183,6 +187,13 @@
                     <div class="title">
                         Application
                     </div>
+                    <div loc="1,1" size="2,2" class="block" onclick="win10_forgive_me()">
+                        <div class="content red">
+                            <div style="text-align: center;font-size: 30px;line-height: 44px"><i
+                                    class="fa fa-bug fa-fw"></i></div>
+                            <div style="text-align: center;font-size: 16px;line-height: 44px">Click Me</div>
+                        </div>
+                    </div>
                     <div loc="5,1" size="2,2" class="block" onclick="win10_forgive_me()">
                         <div class="content red">
                             <div style="text-align: center;font-size: 30px;line-height: 44px"><i
@@ -199,19 +210,19 @@
                     </div>
                     <div loc="1,5" size="6,3" class="block">
                         <div class="content" style="background: url('./img/presentation/1.png');background-size: auto"
-                            onclick="window.open('https://www.9366333.cn:5001')">
+                            onclick="window.open('http://192.168.191.34:5000')">
                         </div>
                     </div>
                     <div loc="1,8" size="2,1" class="block">
                         <div class="content" style="background-color: red"
-                            onclick="window.open('http://www.gebi1.com/thread-274093-1-1.html')">
-                            <div class="win10-block-content-text">Gebi1</div>
+                            onclick="window.open('./img/ptdoc/PT站点图-2.png')">
+                            <div class="win10-block-content-text">PT站点图</div>
                         </div>
                     </div>
                     <div loc="3,8" size="2,1" class="block">
                         <div class="content" style="background-color: orange"
-                            onclick="window.open('http://www.nasyun.com/forum.php?mod=viewthread&tid=30666&page=1&extra=#pid198851')">
-                            <div class="win10-block-content-text">NASyun</div>
+                            onclick="window.open('./img/ptdoc/PT站官窑汇总.jpg')">
+                            <div class="win10-block-content-text">PT站官窑汇总</div>
                         </div>
                     </div>
                     <div loc="5,8" size="2,1" class="block">
